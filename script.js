@@ -83,11 +83,6 @@ function updateCartCount() {
     const cartCountElement = document.getElementById('cart-count');
     cartCountElement.textContent = `My Cart (${cartCount})`;
     alert('Product added to cart!');
-
-    // Update mini-cart
-    const miniCartCountElement = document.getElementById('mini-cart-count');
-    miniCartCountElement.textContent = `My Cart (${cartCount})`;
-
 }
 
 function displayCartItems() {
